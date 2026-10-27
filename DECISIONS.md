@@ -2,6 +2,17 @@
 
 Every step and every decision for this project, dated. Newest first.
 
+## 2026-10-27 — Touchless redo (evening): literature review redone around touchless computing, in a professional, table-driven format
+
+- **Decision:** Report restructured in a table-driven format (title + one-line intro; brief problem; existing-works tables; gaps table; innovations list; usage table; pre-requisites table; methodology table; tech-stack table; datasets; next steps; references; vision). Format only — every row, innovation and stage comes from this project's own report, gaps and methodology plus the touchless additions; nothing is copied from a classmate's document except the pre-requisites, which are ma'am's class requirements.
+- **Step:** 15 new touchless and gesture-vocabulary papers added (Charade 1993; Johnson 2011; Wachs 2008; Jacob et al. 2013; Gentile 2023; Vogel & Balakrishnan 2005 moved into the touchless section; Walter 2014; reviews Groenewald 2016, Vogiatzidakis & Koutsabasis 2018, Koutsabasis & Vogiatzidakis 2019; survey Rautaray & Agrawal 2015; Wobbrock et al. 2009; Piumsomboon et al. 2013; Vatavu & Wobbrock 2015; Aigner et al. 2012 supporting; Ruiz et al. 2011 supporting-only). Total: 41 numbered papers.
+- **Decision:** Re-verdicts applied: 26 earlier papers kept; GhostyNav removed from the papers list (related-system note only); Toyama (1998) demoted to a footnote (secondary sources only, primary source not located).
+- **Step:** Professional cleanup: Scholar column and attempt log removed; citation counts omitted (checkable on Google Scholar by title); DOI listed only where primary-confirmed, otherwise omitted with the primary-source link serving as the source; accuracy paper-reported or 'Not reported'.
+- **Step:** Gaps table rebuilt in Gap | Source | How our model addresses it form from the project's own 13 gaps (10 original + 3 new: vocabulary without evidence; false activation measured in real use; touchless UI configuration).
+- **Step:** Methodology rebuilt as a Stage | Method | Output table from the project's own pipeline, with two touchless additions: a vocabulary-derivation step before the state machine (elicitation study n≈15–20, OS referents, Vatavu & Wobbrock agreement analysis) and a context-gating rule (explicit active state + confirmation channel; face/hand association and gaze direction suppress bystander firing).
+- **Step:** Pre-requisites section added (ma'am's class requirements): Python + NumPy + file handling; OpenCV basics; neural networks + LSTM + train/val splits; linear algebra + statistics; usability testing incl. SUS; laptop 8 GB RAM + 720p webcam + good light (GPU optional); 5–10 volunteers.
+- **Step:** Updated report + decisions log pushed to this repository; updated PDF rebuilt and uploaded to Drive (new copy).
+
 ## 2026-10-27 — Verification pass (evening): every paper checked against its real source
 
 - **Decision:** The report now rests only on papers checked against primary sources. All 18 listed papers (12 shortlist + 6 supporting) were re-checked against publisher pages, arXiv, ACM, IEEE/CVF, or official listings. 15 confirmed as recorded; 3 corrected in the report (Jacob issue 9(3) → 9(2) per ACM DL, with the conflicting PDF header flagged; Molchanov author list and title wording; HaGRID pages 4572–4581 per the CVF PDF).

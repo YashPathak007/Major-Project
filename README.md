@@ -10,7 +10,7 @@ Sit down at an ordinary Windows laptop, and use the whole computer — cursor, c
 
 ## Status
 
-- **Phase 1 — Research: COMPLETE (27 Oct 2026).** See `REPORT.md` — the full research report (Problem Statement, literature review of 12 papers + supporting work, datasets, gaps, proposed methodology, plan, references, vision).
+- **Phase 1 — Research: COMPLETE (27 Oct 2026), redone the same evening with a touchless-computing expansion in a table-driven format.** See `REPORT.md` — the full research report (brief Problem Statement, literature review of 41 numbered papers + Toyama footnote + GhostyNav related-system note, gaps table, innovations, usage, pre-requisites, methodology table, tech-stack table, datasets, next steps, references, vision).
 - **Phase 2 — Prototype: NEXT.** Single-channel prototype (hand tracking → cursor/click) on Windows, then the full state machine + HUD, then gaze + voice channels.
 - **Phase 3 — Evaluation.** Full Windows task set, baselines, robustness matrix, fatigue study, HUD-on/off comparison, false-activation experiment.
 - **Phase 4 — Demo + final submission.** Live demo on the student's Windows laptop (webcam only), final report with measured results, public trace dataset + reporting template.
