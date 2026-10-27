@@ -11,7 +11,7 @@ Every step and every decision for this project, dated. Newest first.
 - **Step:** Gaps table rebuilt in Gap | Source | How our model addresses it form from the project's own 13 gaps (10 original + 3 new: vocabulary without evidence; false activation measured in real use; touchless UI configuration).
 - **Step:** Methodology rebuilt as a Stage | Method | Output table from the project's own pipeline, with two touchless additions: a vocabulary-derivation step before the state machine (elicitation study n≈15–20, OS referents, Vatavu & Wobbrock agreement analysis) and a context-gating rule (explicit active state + confirmation channel; face/hand association and gaze direction suppress bystander firing).
 - **Step:** Pre-requisites section added (ma'am's class requirements): Python + NumPy + file handling; OpenCV basics; neural networks + LSTM + train/val splits; linear algebra + statistics; usability testing incl. SUS; laptop 8 GB RAM + 720p webcam + good light (GPU optional); 5–10 volunteers.
-- **Step:** Updated report + decisions log pushed to this repository; updated PDF rebuilt and uploaded to Drive (new copy).
+- **Step:** Updated report + decisions log pushed to this repository (commit 83bdb9258ddfb4941d89fbd2b683fc33711e0e6e); updated PDF rebuilt (21 pages, 332,296 bytes). Drive upload attempted but FAILED: the upload endpoint timed out (HTTP 500, client Connect timeout) after approval was granted, and a Drive listing check confirmed no new copy was created — only the two older copies exist. Drive re-uploaded 2026-10-28 (new copy, Drive file ID 1uWrtlHYbdxbrz5SU5qxbgUuZN4EqcDAX).
 
 ## 2026-10-27 — Verification pass (evening): every paper checked against its real source
 
