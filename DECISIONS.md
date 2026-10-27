@@ -2,6 +2,14 @@
 
 Every step and every decision for this project, dated. Newest first.
 
+## 2026-10-27 — Verification pass (evening): every paper checked against its real source
+
+- **Decision:** The report now rests only on papers checked against primary sources. All 18 listed papers (12 shortlist + 6 supporting) were re-checked against publisher pages, arXiv, ACM, IEEE/CVF, or official listings. 15 confirmed as recorded; 3 corrected in the report (Jacob issue 9(3) → 9(2) per ACM DL, with the conflicting PDF header flagged; Molchanov author list and title wording; HaGRID pages 4572–4581 per the CVF PDF).
+- **Decision:** Figures that rested only on secondary summaries are no longer quoted as paper-reported (MediaPipe palm AP, WebGazer pixel/degree errors, MPIIGaze 2015 vs 2019 figure, ETH-XGaze baseline, Gaze360 original error). They stay 'not reported' until the full paper text is re-read.
+- **Step:** 9 further verified papers added to the review (Vogel & Balakrishnan 2005; Roeber et al. 2003; Typealike 2021; Pavanatto et al. 2021; Jang et al. 2017; PrivacyLens 2024; Saqib et al. 2025; Yang et al. 2023; Pfeuffer et al. 2017), with scope caveats kept explicit (headset papers, mirror attachment, thermal hardware, attack paper as risk evidence).
+- **Step:** Google Scholar citation counts could not be retrieved in this pass either (Scholar pages not returned); no Scholar count is claimed anywhere. Only citation metric captured: ACM's for Jacob (693 citations, 7,731 downloads to 10 Oct 2024).
+- **Step:** Updated report + decisions log pushed to this repository; updated PDF rebuilt and uploaded to Drive (replacing the earlier copy).
+
 ## 2026-10-27 — Phase 1 research complete
 
 - **Decision:** Phase 1 (research) is complete with `REPORT.md`. Software and demo come later, by design.
@@ -33,5 +41,5 @@ Every step and every decision for this project, dated. Newest first.
 
 - **OSO web experience (Holo Viewer OSO):** a browser-based laptop hologram experience with webcam gestures. A parallel track sharing the webcam-control vision; not merged into this repository yet (merge decision pending).
 - **OSO Windows Control (native program):** a Python + MediaPipe + pyautogui program for real Windows cursor/click/scroll/app-switch control via webcam. A parallel track; its safety design (starts disabled, ESC kill switch) informs this project's OS action layer.
-- **GhostyNav:** deferred to later as a project. Cited in `REPORT.md` only as a related system (verified by direct GitHub repository read 27 Oct 2026), not as peer-reviewed evidence.
+- **GhostyNav:** active as its own separate track (TopNotch v1 built 27 Oct 2026 evening; not merged into this project). Cited in `REPORT.md` only as a related system (verified by direct GitHub repository read 27 Oct 2026), not as peer-reviewed evidence.
 - **Stark Vault / Stark UI Demo / classic Holo Viewer:** separate older projects with their own tracks; not part of this major project.
