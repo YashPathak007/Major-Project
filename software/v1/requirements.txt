@@ -1,0 +1,8 @@
+# Touchless Controller v1.0.0 — runtime dependencies (Windows 10/11, Python 3.11–3.13)
+# Pinned to the exact versions the test suite ran against.
+mediapipe==1.1.1
+opencv-python-headless==5.0.0.93
+PyQt6==6.11.0
+PyAutoGUI==0.9.54
+pynput==1.8.2
+numpy==2.5.4

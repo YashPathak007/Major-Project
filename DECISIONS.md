@@ -2,6 +2,14 @@
 
 Every step and every decision for this project, dated. Newest first.
 
+## 2026-10-28 — Version 1 software built and uploaded
+
+- **Step:** Touchless controller Version 1 (1.0.0) built per the approved minute-detailed plan (PLAN.md untouched): 11 modules (camera, model, mapping, gestures, state, injection, hud, settings, tray, logging, app); starts PAUSED; open-palm activation; pinch click, pinch-hold confirm, drag; scroll = open-palm vertical move (candidate, with Wobbrock fallback as a per-gesture off-switch); display-only HUD; calibration; settings with clamps; Esc/tray/gesture-pause kill-switches; bundled MediaPipe hand model in the local package.
+- **Step:** 83/83 synthetic tests green (pytest, re-run independently); 3 defects caught and fixed during testing (filter glide false drags; corner off-by-one; Settings Reset leaving scaled sliders). Per-file counts and the deviations log are in `software/v1/TEST_REPORT.md` and `software/v1/BUILD_NOTES.md`.
+- **Decision:** Gesture dictionary NOT frozen — elicitation with 5–8 volunteers still to come; scroll especially is a candidate, not a final choice. Performance budgets are targets, not measurements; G-FALSE, G-SUS, G-FATIGUE and the conditions matrix are untested (need real users/hardware).
+- **Step:** Version 1 source uploaded to this repository under `software/v1/`. The MediaPipe hand-model binary (`models/hand_landmarker.task`, 7.8 MB) is NOT in the repo: this GitHub push route carries text files only, so the binary cannot be pushed through it. The full runnable package (with the model bundled) is the local zip; for the repo copy, download the official model from https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task and place it at `software/v1/models/hand_landmarker.task` (see `software/v1/models/README.md`). Deferred items verified absent: voice, gaze, app-switch, air-typing, cloud sync, auto-launch, multi-hand driving.
+- **Step:** Chat delivery of the v1 zip was blocked by an automated filter, so this repository copy is the delivery route for now.
+
 ## 2026-10-27 — Touchless redo (evening): literature review redone around touchless computing, in a professional, table-driven format
 
 - **Decision:** Report restructured in a table-driven format (title + one-line intro; brief problem; existing-works tables; gaps table; innovations list; usage table; pre-requisites table; methodology table; tech-stack table; datasets; next steps; references; vision). Format only — every row, innovation and stage comes from this project's own report, gaps and methodology plus the touchless additions; nothing is copied from a classmate's document except the pre-requisites, which are ma'am's class requirements.
